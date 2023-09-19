@@ -13,29 +13,7 @@
     line-height: 33px;
 }
 .blocks-img {
-    display: block;
-    
-    }
-    .first-img {
-        width: 300px;
-        height: 190px;
-    }
-    .second-img {
-        width: 300px;
-        height: 190px;
-     }
-    .third-img {
-        width: 300px;
-        height: 190px;
-
-    }
-    .first-block {
-
-    }
-    .second-img {
-
-    }
-    .third-img {
-  
-    }
-    
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
