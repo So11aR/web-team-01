@@ -21,7 +21,7 @@
 .first-block {
     position: absolute;
     display: inline-block;
-    left: 380px;
+    left: 467px;
 }
 .second-block {
     position: absolute;
@@ -96,9 +96,9 @@ font-size: 18px;
 .footer-block {
     display: block;
     background-color: black;
-    width: 1745px;
+    width: 1920px;
     height: 166px;
-    margin-top: 187px;
+    margin-top: 273px;
 }
 .title-footer {
 font-size: 17px;
