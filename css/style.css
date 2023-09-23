@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+}
+
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap')
+}
+
 html {
   box-sizing: border-box;
+  background-color: black;
 }
 
 *, *:before, *:after {
@@ -21,11 +32,15 @@ img {
   height: auto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+/* .navbar-collapse {
+  background-color: none !important;
+} */
 
-/* font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif; */
+.nav-link {
+  color: #fff !important;
+  letter-spacing: 2px;
+}
 
-.container {
-  background-color: red;
+.nav-link:nth-child(1) {
+  border-bottom: 1px solid white;
 }
