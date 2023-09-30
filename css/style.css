@@ -2,3 +2,105 @@
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif; */
+
+.firstCard__image {
+    width: 800px;
+    height: 330px;
+    flex-shrink: 0;
+}
+.firstCard__logo {
+    
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: lightgray 50% / cover no-repeat;
+}
+.infoLogo {
+    width: 101px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 105.556% */
+    }
+.contentFirstimage {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 125% */
+    width: 470px;
+    }
+.basis {
+    display: flex;
+    width: 800px;
+    padding: 35px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tagA {
+    color: #8D4FDB;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    .foterCard {
+    width: 800px;
+    height: 211px;
+    flex-shrink: 0;
+    background: #F1F1F1;
+    }
+    .foterCard__Text {
+    color: #333;
+    width: 300px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 120% */
+    }
+    .foterCard_button{
+    border-radius: 3px;
+    background: #8D4FDB;
+    width: 182px;
+    height: 45px;
+    flex-shrink: 0;
+    }
+    .foterCard_buttontext {
+        color: #FFF;
+        width: 132px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 300% */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .info {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
