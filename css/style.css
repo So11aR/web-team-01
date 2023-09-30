@@ -2,6 +2,15 @@
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif; */
+.bodyInfo {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .firstBody-info h5{
     width: 101px;
