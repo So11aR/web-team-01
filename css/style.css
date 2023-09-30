@@ -1,19 +1,49 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 .bodyInfo {
-    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
-    overflow: auto;
-    min-height: 100vh;
+
     align-items: center;
     flex-direction: column;
 }
 
+.LuceInfo {
+    min-height: 330px;
+    background-image: url('../images/cards/card-1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.jessicaInfo {
+    min-height: 330px;
+    background-image: url('../images/cards/card-2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.firstBody-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
 
 .firstBody-info h5{
-    width: 101px;
+    /* width: 101px; */
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
@@ -37,7 +67,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .firstBody-text {
     display: flex;
-    width: 800px;
+    /* width: 800px; */
     padding: 35px 60px;
     flex-direction: column;
     justify-content: center;
@@ -62,9 +92,38 @@ font-family: 'Montserrat', sans-serif; */
 .firstBody-info a:hover{
     color: #7410ee
 }
+.link {
+    color: #8D4FDB;
+    font-weight: 400;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 30px;
+}
+.link:hover {
+    color: #7410ee
+}
+.one {
+    min-height: 330px;
+    background-image: url('../images/cards/card-2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
-
-
+.two {
+    min-height: 330px;
+    background-image: url('../images/cards/card-3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 
 
