@@ -10,7 +10,6 @@
 
 html {
   box-sizing: border-box;
-  background-color: black;
 }
 
 *, *:before, *:after {
@@ -30,6 +29,12 @@ ol, ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+body {
+  background-image: url('/images/main-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* .navbar-collapse {
